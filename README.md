@@ -1,6 +1,6 @@
 # masterthesis-code-2025
 
-```markdown
+
 # Smart Home Performance Benchmark Suite
 
 This repository contains the source code and benchmark tools developed for my Master's Thesis: **"Performance Testing im Smart Home: Analyse von MQTT, HABApp und openHAB"** at *Furtwangen University (HFU)*.
@@ -8,19 +8,19 @@ This repository contains the source code and benchmark tools developed for my Ma
 ## Overview
 
 The goal of this project was to empirically analyze the performance limits of a typical open-source smart home architecture. A modular benchmark suite was developed to measure:
-* Latency: Round-trip time (RTT) for MQTT, HABApp, and openHAB.
-* Throughput: Maximum messages per second (msg/s).
-* Stability: Long-term load tests (e.g., 5 minutes at constant load).
-* Stress: System breaking points and packet loss analysis.
+* **Latency**: Round-trip time (RTT) for MQTT, HABApp, and openHAB.
+* **Throughput**: Maximum messages per second (msg/s).
+* **Stability**: Long-term load tests (e.g., 5 minutes at constant load).
+* **Stress**: System breaking points and packet loss analysis.
 
 ## System Architecture
 
 The benchmark suite consists of a Python-based **Load Generator (Client)** and specific **Responder Rules (Server)** implemented in HABApp and openHAB.
 
-* Language: Python 3.10+
-* Communication: MQTT (via Eclipse Mosquitto)
-* Middleware: HABApp, openHAB
-* Library: `paho-mqtt`
+* **Language**: Python 3.10+
+* **Communication**: MQTT (via Eclipse Mosquitto)
+* **Middleware**: HABApp, openHAB
+* **Library**: `paho-mqtt`
 
 ## Usage
 
@@ -78,4 +78,4 @@ This project is licensed under the MIT License
 
 *Created by Patrick Krieger, 2025.*
 
-```
+
